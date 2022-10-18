@@ -1,0 +1,30 @@
+.content {
+    min-height: calc(100vh - 70px - 62px) !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.movies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+
+}
+
+nav .brand-logo {
+    position: absolute;
+    left: 100px;
+}
+
+
+.input-field button{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+}
+
+.check-box{
+    display: flex;
+    justify-content: space-around;
+}
